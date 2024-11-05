@@ -1,0 +1,75 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.838);
+    color: aliceblue;
+    margin: 2vh;
+    padding: 2vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+    padding: 2vh;
+}
+#conversor{
+    border-radius: 10px;
+    background-color: rgba(104, 104, 104, 0.838);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 3vh;
+    padding: 3vh;
+    gap: 2vh;
+}
+
+#buscar{
+    background-color: rgb(106, 95, 250);
+    width: 10vh;
+    color: #fff;
+
+}
+
+.graphBox{
+    width: 60%;
+}
+
+#buscar{
+    width: 50%;
+    height: 5vh;
+    border-radius: 1vh;
+    text-align: center;
+}
+
+#inputValor{
+    width: 90%;
+    height: 5vh;
+    border-radius: 1vh;
+    text-align: center;
+}
+
+option{
+    text-align: center;
+}
+
+#monedasDisponibles{
+    width: 80%;
+    height: 4vh;
+}
+
+h1{
+    border-bottom: 1px solid gray;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Conversor de Monedas</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <h1>Conversor de monedas Nacional</h1>
+            <div id="conversor">
+                <h3>CLP a una moneda</h3>
+                <input type="number" id="inputValor" value="0">
+                <p>Moneda a convertir:</p>
+                <select id="monedasDisponibles"></select>
+                <button id="buscar">Buscar</button>
+                <h3>Valor actual: <span id="vActual"> </span></h3>
+                <h3><span id="resultado">resultado:</span></h3>
+            </div>
+        </div>
+
+        <div class="graphBox">
+            <canvas id="moneyChart"></canvas>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
